@@ -1,0 +1,10 @@
+.footer {
+  background-color: var(--color-blue);
+
+  &__wrapp {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 13px;
+    padding-bottom: 13px;
+  }
+}

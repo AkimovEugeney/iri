@@ -1,0 +1,30 @@
+.tags {
+  display: flex;
+  gap: 12px;
+  padding-top: 28px;
+  padding-bottom: 50px;
+}
+
+.tag {
+  max-width: max-content;
+  padding: 4px 12px;
+  background-color: var(--color-blue);
+  border-radius: 30px;
+  cursor: pointer;
+
+  color: var(--color-light);
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 22px;
+
+  &:nth-child(2n) {
+    background-color: var(--color-pink);
+  }
+
+  &__link {
+    color: var(--color-light);
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 22px;
+  }
+}

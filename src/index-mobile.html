@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__body">
+  <div class="site-container">
+    @include('partials/header.html')
+    <main class="main main-bg-mobile">
+      <section class="main-section">
+        <div class="container">
+          <div class="main-section__wrapp">
+            <h2 class="main-section__subtitle double-text">
+              <p>
+                <span>Большая</span>
+                cемья
+              </p>
+              <p>
+                <span>Большие</span>
+                ценности
+              </p>
+              <p>
+                <span>Большой</span>
+                потенциал
+              </p>
+            </h2>
+            <h1 class="main-section__title">Семейный портал о важном. Вдохновитесь историями многодетных семей и узнайте
+              полезные лайфхаки</h1>
+            <ul class="main-section__list information">
+              <li class="information__item">
+                <a class="information__link" href="#!">
+                  <div class="information__wrapp">
+                    <img src="img/svg/main-menu-smile.svg" alt="">
+                  </div>
+                  <img src="./img/content/main-information-img.svg" alt="Фото семьи">
+                  <p class="information__title">Истории семей</p>
+                </a>
+              </li>
+              <li class="information__item">
+                <a class="information__link" href="#!">
+                  <div class="information__wrapp">
+                    <img src="img/svg/main-menu-articles.svg" alt="">
+                  </div>
+                  <p>Полезные статьи</p>
+                </a>
+              </li>
+              <li class="information__item">
+                <a class="information__link" href="#!">
+                  <div class="information__wrapp">
+                    <img src="img/svg/main-menu-eyes.svg" alt="">
+                  </div>
+                  <p>Идеи семейного досуга</p>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+    @include('partials/footer.html')
+  </div>
+</body>
+
+</html>

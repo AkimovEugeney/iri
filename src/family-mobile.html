@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__body">
+  <div class="site-container">
+    @include('partials/header-page.html')
+    <main class="main main-bg-mobile">
+      <section class="potential">
+        <div class="container">
+          <div class="potential__wrapp">
+            <h2 class="potential__title double-text">
+              <p>
+                <span>Большая</span>
+                семья
+              </p>
+            </h2>
+            <h3 class="potential__subtitle section__subtitle">
+              Вдохновляющие истории необычных многодетных семей
+            </h3>
+            <div class="family__list">
+              <article class="family-item">
+                <img class="family-item__img" src="img/content/slider-family-img-3.jpeg"
+                  alt="Фотография исаевых">
+                <div class="family-item__info">
+                  <div class="family-item__inner">
+                    <h3 class="family-item__title">
+                      Исаевы
+                    </h3>
+                    <p class="family-item__subtitle">
+                      В нашем небольшом городке жили мы, семья Кузнецовых. Отец, Алексей, был виртуозом
+                    </p>
+                  </div>
+                  <a href="family-page.html" class="read-more">Читать далее</a>
+                </div>
+              </article>
+              <article class="family-item">
+                <img class="family-item__img" src="img/content/slider-family-img-4.jpeg"
+                  alt="Фотография бежанидзе">
+                <div class="family-item__info">
+                  <div class="family-item__inner">
+                    <h3 class="family-item__title">
+                      Бежанидзе
+                    </h3>
+                    <p class="family-item__subtitle">
+                      «Я оказалась гораздо сильнее, чем думала». История многодетной мамы, которая...
+                    </p>
+                  </div>
+                  <a href="#!" class="read-more">Читать далее</a>
+                </div>
+              </article>
+              <article class="family-item">
+                <img class="family-item__img" src="img/content/slider-family-img-5.jpeg"
+                  alt="Фотография Королёвы">
+                <div class="family-item__info">
+                  <div class="family-item__inner">
+                    <h3 class="family-item__title">
+                      Королёвы
+                    </h3>
+                    <p class="family-item__subtitle">
+                      Маша поделилась своей историей — со стороны ребенка из многодетной...
+                    </p>
+                  </div>
+                  <a href="#!" class="read-more">Читать далее</a>
+                </div>
+              </article>
+            </div>
+        </div>
+    </main>
+    @include('partials/footer.html')
+  </div>
+</body>
+
+</html>

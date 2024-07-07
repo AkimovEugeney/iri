@@ -1,0 +1,38 @@
+.family-item {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-light);
+  border-radius: 18px;
+  min-height: 448px;
+
+  &__img {
+    max-height: 224px;
+    flex: 0 1;
+    border-radius: 18px 18px 0 0;
+    object-fit: cover;
+  }
+
+  &__info {
+    display: flex;
+    flex: 1 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 21px;
+  }
+
+  &__title {
+    margin-bottom: 8px;
+    color: var(--color-dark);
+    font-family: Kudry;
+    font-size: 40.57px;
+    font-weight: 300;
+    line-height: 40.87px;
+  }
+
+  &__subtitle {
+    color: var(--color-dark);
+    font-size: 15.87px;
+    font-weight: 500;
+    line-height: 19.4px;
+  }
+}

@@ -1,0 +1,47 @@
+.potential {
+  &__wrapp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  &__title {
+    margin-bottom: 24px;
+
+    & p {
+      font-size: var(--double-text-p);
+    }
+
+    & p > span {
+      font-size: var(--double-text-span);
+    }
+  }
+
+  &__subtitle {
+    margin-bottom: 45px;
+    max-width: 450px;
+  }
+
+  &__swiper {
+    width: 1090px;
+    height: auto;
+    padding-top: 50px;
+  }
+
+  .potential-swiper__wrapp {
+    position: relative;
+    padding-bottom: 105px;
+  }
+
+  & .swiper-slide {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 350px));
+    gap: 20px;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+  }
+}

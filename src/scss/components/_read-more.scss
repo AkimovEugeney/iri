@@ -1,0 +1,28 @@
+.read-more {
+  display: flex;
+  max-width: max-content;
+  padding: 8px 16px;
+  background-color: var(--color-dark);
+  border-radius: 37px;
+  border: none;
+  cursor: pointer;
+
+  color: var(--color-light);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 27.22px;
+  transition: background-color .3s;
+
+  &:focus {
+    outline: none;
+    background-color: var(--color-blue);
+  }
+
+  &:hover {
+    background-color: var(--color-blue);
+  }
+
+  &:active {
+    background-color: var(--color-blue);
+  }
+}

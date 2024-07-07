@@ -1,0 +1,30 @@
+.potential-item {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-light);
+  border-radius: 18px;
+  min-height: 508px;
+
+  &__img {
+    max-height: 254px;
+    flex: 0 1;
+    border-radius: 18px 18px 0 0;
+    object-fit: cover;
+  }
+
+  &__info {
+    display: flex;
+    flex: 1 0;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 21px;
+  }
+
+  &__title {
+    max-width: 301px;
+    color: var(--color-dark);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 28px;
+  }
+}

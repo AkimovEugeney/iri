@@ -1,0 +1,24 @@
+// если вы хотите использовать sass-переменные - удалите root
+// colors
+:root {
+  // base
+  --font-family: "Montserrat", "Kudry", sans-serif;
+  --content-width: 1246px;
+  --container-offset: 60px;
+  --container-width: calc(var(--content-width) + (var(--container-offset) * 2));
+  --radius: 10px;
+
+  // colors
+  --color-light: #FBFBFB;
+  --color-blue-light: #408DB5;
+  --color-blue: #00679D;
+  --color-blue-dark: #00476D;
+  --color-pink: #FF6699;
+  --color-dark: #010101;
+
+  //font-size
+
+  --double-text-p: 100px;
+  --double-text-span: 110px;
+  --double-text-lh: 74px;
+}

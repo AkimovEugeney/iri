@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__body">
+  <div class="site-container">
+    @include('partials/header.html')
+    <main class="main main-page">
+      <section class="main-section">
+        <div class="container">
+          <div class="main-section__wrapp">
+            <h2 class="main-section__subtitle double-text">
+              <p>
+                <span>Большая</span>
+                cемья
+              </p>
+              <p>
+                <span>Большие</span>
+                ценности
+              </p>
+              <p>
+                <span>Большой</span>
+                потенциал
+              </p>
+            </h2>
+            <h1 class="main-section__title">Семейный портал о важном. Вдохновитесь историями многодетных семей и узнайте
+              полезные лайфхаки</h1>
+            <ul class="main-section__list information">
+              <li class="information__item">
+                <a class="information__link" href="#!">
+                  <div class="information__wrapp">
+                    <img src="img/svg/main-menu-smile.svg" alt="">
+                    <p>Истории семей</p>
+                  </div>
+                </a>
+              </li>
+              <li class="information__item">
+                <a class="information__link" href="#!">
+                  <div class="information__wrapp">
+                    <img src="img/svg/main-menu-articles.svg" alt="">
+                    <p>Полезные статьи</p>
+                  </div>
+                </a>
+              </li>
+              <li class="information__item">
+                <a class="information__link" href="#!">
+                  <div class="information__wrapp">
+                    <img src="img/svg/main-menu-eyes.svg" alt="">
+                    <p>Идеи семейного досуга</p>
+                  </div>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="family">
+        <div class="container">
+          <div class="family__wrapp">
+            <h2 class="family__title double-text">
+              <p>
+                <span>Большая</span>
+                cемья
+              </p>
+            </h2>
+            <h3 class="family__subtitle section__subtitle">
+              Вдохновляющие истории необычных многодетных семей
+            </h3>
+            <div class="family-swiper__wrapp">
+              <div id="family-swiper" class="swiper family__swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <article class="family-item">
+                      <img class="family-item__img" src="img/content/slider-family-img-1.jpeg"
+                        alt="Фотография соколовых">
+                      <div class="family-item__info">
+                        <div class="family-item__inner">
+                          <h3 class="family-item__title">
+                            Соколовы
+                          </h3>
+                          <p class="family-item__subtitle">
+                            В нашем небольшом городке жили мы, семья Кузнецовых. Отец, Алексей, был виртуозом
+                          </p>
+                        </div>
+                        <a href="#!" class="read-more">Читать далее</a>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="swiper-slide">
+                    <article class="family-item">
+                      <img class="family-item__img" src="img/content/slider-family-img-2.jpeg"
+                        alt="Фотография михайловых">
+                      <div class="family-item__info">
+                        <div class="family-item__inner">
+                          <h3 class="family-item__title">
+                            Михайловы
+                          </h3>
+                          <p class="family-item__subtitle">
+                            В нашем небольшом городке жили мы, семья Кузнецовых. Отец, Алексей, был виртуозом
+                          </p>
+                        </div>
+                        <a href="#!" class="read-more">Читать далее</a>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="swiper-slide">
+                    <article class="family-item">
+                      <img class="family-item__img" src="img/content/slider-family-img-3.jpeg"
+                        alt="Фотография исаевых">
+                      <div class="family-item__info">
+                        <div class="family-item__inner">
+                          <h3 class="family-item__title">
+                            Исаевы
+                          </h3>
+                          <p class="family-item__subtitle">
+                            В нашем небольшом городке жили мы, семья Кузнецовых. Отец, Алексей, был виртуозом
+                          </p>
+                        </div>
+                        <a href="family-page.html" class="read-more">Читать далее</a>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="swiper-slide">
+                    <article class="family-item">
+                      <img class="family-item__img" src="img/content/slider-family-img-4.jpeg"
+                        alt="Фотография бежанидзе">
+                      <div class="family-item__info">
+                        <div class="family-item__inner">
+                          <h3 class="family-item__title">
+                            Бежанидзе
+                          </h3>
+                          <p class="family-item__subtitle">
+                            «Я оказалась гораздо сильнее, чем думала». История многодетной мамы, которая...
+                          </p>
+                        </div>
+                        <a href="#!" class="read-more">Читать далее</a>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="swiper-slide">
+                    <article class="family-item">
+                      <img class="family-item__img" src="img/content/slider-family-img-5.jpeg"
+                        alt="Фотография Королёвы">
+                      <div class="family-item__info">
+                        <div class="family-item__inner">
+                          <h3 class="family-item__title">
+                            Королёвы
+                          </h3>
+                          <p class="family-item__subtitle">
+                            Маша поделилась своей историей — со стороны ребенка из многодетной...
+                          </p>
+                        </div>
+                        <a href="#!" class="read-more">Читать далее</a>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="swiper-slide">
+                    <article class="family-item">
+                      <img class="family-item__img" src="img/content/slider-family-img-6.jpeg"
+                        alt="Фотография Дёмины">
+                      <div class="family-item__info">
+                        <div class="family-item__inner">
+                          <h3 class="family-item__title">
+                            Дёмины
+                          </h3>
+                          <p class="family-item__subtitle">
+                            Ольга Дёмина решила поделиться историей своей семьи, рассказать, какой...
+                          </p>
+                        </div>
+                        <a href="#!" class="read-more">Читать далее</a>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="swiper-slide">
+                    <article class="family-item">
+                      <img class="family-item__img" src="img/content/slider-family-img-7.jpeg"
+                        alt="Фотография Стратулат">
+                      <div class="family-item__info">
+                        <div class="family-item__inner">
+                          <h3 class="family-item__title">
+                            Стратулат
+                          </h3>
+                          <p class="family-item__subtitle">
+                            «Мы с мужем — идеальный для детей пример того, как выглядит настоящая любовь»...
+                          </p>
+                        </div>
+                        <a href="#!" class="read-more">Читать далее</a>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="swiper-slide">
+                    <article class="family-item">
+                      <img class="family-item__img" src="img/content/slider-family-img-8.jpeg"
+                        alt="Фотография Шековы">
+                      <div class="family-item__info">
+                        <div class="family-item__inner">
+                          <h3 class="family-item__title">
+                            Шековы
+                          </h3>
+                          <p class="family-item__subtitle">
+                            «Моя миссия — нести людям позитивный свет большой семьи». Вдохновляющая...
+                          </p>
+                        </div>
+                        <a href="#!" class="read-more">Читать далее</a>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="swiper-slide">
+                    <article class="family-item">
+                      <img class="family-item__img" src="img/content/slider-family-img-9.jpeg"
+                        alt="Фотография Полукеевы">
+                      <div class="family-item__info">
+                        <div class="family-item__inner">
+                          <h3 class="family-item__title">
+                            Полукеевы
+                          </h3>
+                          <p class="family-item__subtitle">
+                            «Ты будешь супергерой». История многодетной мамы, которая воспитывает сына...
+                          </p>
+                        </div>
+                        <a href="#!" class="read-more">Читать далее</a>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                <button class="swiper-button-prev  custom-swiper-button"></button>
+                <button class="swiper-button-next custom-swiper-button"></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="potential">
+          <div class="potential__wrapp">
+            <h2 class="potential__title double-text">
+              <p>
+                <span>Большой</span>
+                потенциал
+              </p>
+            </h2>
+            <h3 class="potential__subtitle section__subtitle">
+              Полезные статьи для многодетных семей и не только
+            </h3>
+            <div class="potential-swiper__wrapp">
+              <div id="potential-swiper" class="swiper potential__swiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide">
+                    <article class="potential-item">
+                      <img class="potential-item__img" src="img/content/slider-potential-img-1.svg"
+                        alt="Фотография c животными">
+                      <div class="potential-item__info">
+                          <h3 class="potential-item__title">
+                            Как домашние животные влияют на воспитание детей
+                          </h3>
+                        <a href="article-page.html" class="read-more">Читать далее</a>
+                      </div>
+                    </article>
+                    <article class="potential-item">
+                      <img class="potential-item__img" src="img/content/slider-potential-img-2.svg"
+                        alt="Фотография c животными">
+                      <div class="potential-item__info">
+                          <h3 class="potential-item__title">
+                            «Как я с ними со всеми справлюсь?». 5 мифов о воспитании в многодетной семье
+                          </h3>
+                        <a href="#!" class="read-more">Читать далее</a>
+                      </div>
+                    </article>
+                    <article class="potential-item">
+                      <img class="potential-item__img" src="img/content/slider-potential-img-3.svg"
+                        alt="Фотография c животными">
+                      <div class="potential-item__info">
+                          <h3 class="potential-item__title">
+                            Звезда в большой семье: как помочь ребенку найти свой талант?
+                          </h3>
+                        <a href="#!" class="read-more">Читать далее</a>
+                      </div>
+                    </article>
+                    <article class="potential-item">
+                      <img class="potential-item__img" src="img/content/slider-potential-img-4.svg"
+                        alt="Фотография c животными">
+                      <div class="potential-item__info">
+                          <h3 class="potential-item__title">
+                            Секреты воспитания детей в малогабаритке: бросьте вызов пространству!
+                          </h3>
+                        <a href="#!" class="read-more">Читать далее</a>
+                      </div>
+                    </article>
+                    <article class="potential-item">
+                      <img class="potential-item__img" src="img/content/slider-potential-img-5.svg"
+                        alt="Фотография c животными">
+                      <div class="potential-item__info">
+                          <h3 class="potential-item__title">
+                            Способы создания идеального режима сна: уникальные советы здесь!
+                          </h3>
+                        <a href="#!" class="read-more">Читать далее</a>
+                      </div>
+                    </article>
+                    <article class="potential-item">
+                      <img class="potential-item__img" src="img/content/slider-potential-img-6.svg"
+                        alt="Фотография c животными">
+                      <div class="potential-item__info">
+                          <h3 class="potential-item__title">
+                            Плюсы и минусы обучения детей в одном классе
+                          </h3>
+                        <a href="#!" class="read-more">Читать далее</a>
+                      </div>
+                    </article>
+                  </div>
+                  <div class="swiper-slide">
+                    <article class="potential-item">
+                      <img class="potential-item__img" src="img/content/slider-potential-img-7.svg"
+                        alt="Фотография c животными">
+                      <div class="potential-item__info">
+                          <h3 class="potential-item__title">
+                            10 идей, как весело провести время с детьми разных возрастов
+                          </h3>
+                        <a href="#!" class="read-more">Читать далее</a>
+                      </div>
+                    </article>
+                    <article class="potential-item">
+                      <img class="potential-item__img" src="img/content/slider-potential-img-8.svg"
+                        alt="Фотография c животными">
+                      <div class="potential-item__info">
+                          <h3 class="potential-item__title">
+                            Секреты гармонии в многодетной семье: любовь, поддержка и счастье каждый день
+                          </h3>
+                        <a href="#!" class="read-more">Читать далее</a>
+                      </div>
+                    </article>
+                    <article class="potential-item">
+                      <img class="potential-item__img" src="img/content/slider-potential-img-9.svg"
+                        alt="Фотография c животными">
+                      <div class="potential-item__info">
+                          <h3 class="potential-item__title">
+                            Большая семья – большие путешествия: как организовать отдых с большим количеством детей
+                          </h3>
+                        <a href="#!" class="read-more">Читать далее</a>
+                      </div>
+                    </article>
+                    <article class="potential-item">
+                      <img class="potential-item__img" src="img/content/slider-potential-img-10.svg"
+                        alt="Фотография c животными">
+                      <div class="potential-item__info">
+                          <h3 class="potential-item__title">
+                            Многодетная семья и творчество: как совместные увлечения сближают детей и родителей
+                          </h3>
+                        <a href="#!" class="read-more">Читать далее</a>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+                <button class="swiper-button-prev  custom-swiper-button"></button>
+                <button class="swiper-button-next custom-swiper-button"></button>
+              </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    @include('partials/footer.html')
+  </div>
+</body>
+
+</html>

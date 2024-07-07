@@ -1,0 +1,118 @@
+// базовые подключения
+@import 'vars';
+@import 'mixins';
+@import 'fonts';
+@import 'settings';
+
+// подключения компонентов страницы
+@import './components/header';
+@import './components/footer';
+@import './components/icons';
+@import './components/main-section';
+@import './components/section-subtitle';
+@import './components/double-text';
+@import './components/information';
+@import './components/family';
+@import './components/family-item';
+@import './components/read-more';
+@import './components/potential';
+@import './components/potential-item';
+@import './components/link';
+@import './components/tags';
+@import './components/family-article';
+@import './components/article-page';
+
+@import 'media.scss';
+
+@font-face {
+  font-family: 'Kudry';
+  src: url('../fonts/kudry_weird-headline') format('otf');
+  font-weight: 300;
+  font-display: swap;
+  font-style: normal;
+}
+
+.family__swiper .swiper-slide-active {
+  transition: transform .3s;
+  transform: scale(1.12);
+}
+
+.main-page .swiper {
+  position: static;
+}
+
+.main-page .swiper-button-prev,
+.main-page .swiper-rtl .swiper-button-next {
+  left: -70px;
+  transform: rotate(180deg);
+}
+
+.main-page .swiper-button-next,
+.main-page .swiper-rtl .swiper-button-prev {
+  right: -70px;
+}
+
+.potential__swiper .swiper-button-prev,
+.swiper-rtl .swiper-button-next {
+  left: -80px;
+}
+
+.potential__swiper .swiper-button-next,
+.swiper-rtl .swiper-button-prev {
+  right: -80px;
+}
+
+.custom-swiper-button {
+  width: 55px;
+  height: 55px;
+  background-color: var(--color-blue) !important;
+  border-radius: 50%;
+  border: none;
+  background-color: transparent;
+  color: transparent;
+  transition: background-color 0.3s;
+
+  &::after {
+    content: '';
+    position: absolute;
+    width: 15px;
+    height: 20px;
+    background: url('../img/svg/arrow-slider.svg') no-repeat 2px;
+  }
+  &:active {
+    background-color: var(--color-blue-dark) !important;
+  }
+
+  &:disabled {
+    opacity: 1;
+    background-color: var(--color-blue-light) !important;
+
+    &::after {
+      background: url('../img/svg/arrow-slider-dis.svg') no-repeat 2px;
+    }
+  }
+}
+
+.main-page .swiper-horizontal > .swiper-pagination-bullets,
+.main-page .swiper-pagination-bullets.swiper-pagination-horizontal,
+.main-page .swiper-pagination-custom,
+.main-page .swiper-pagination-fraction {
+  bottom: 64px;
+}
+
+.main-page .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: transparent;
+  border: 2.4px solid var(--color-blue);
+  opacity: 1;
+}
+
+.main-page .swiper-pagination-bullet-active {
+  background-color: var(--color-blue);
+}
+
+.main-img__wrapp {
+  display: flex;
+  justify-content: center;
+}

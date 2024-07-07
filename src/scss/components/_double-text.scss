@@ -1,0 +1,14 @@
+.double-text {
+  font-family: Montserrat;
+  font-size: 73px;
+  font-weight: 500;
+  line-height: var(--double-text-lh);
+  text-align: center;
+  color: var(--color-dark);
+
+  & p > span {
+    font-family: Kudry;
+    font-weight: 300;
+    text-align: center;
+  }
+}

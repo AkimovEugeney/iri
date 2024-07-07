@@ -1,0 +1,25 @@
+.header {
+  background-color: var(--color-blue);
+
+  &__wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+
+  &__link {
+    color: var(--color-light);
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 17px;
+    text-decoration-line: underline;
+    transition: opacity .3s;
+  }
+
+  &__logo-link:focus-visible {
+    outline: 1px solid var(--color-dark);
+    border-radius: 50%;
+  }
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ru" class="page">
+
+@include('partials/head.html')
+
+<body class="page__body">
+  <div class="site-container">
+    @include('partials/header-page.html')
+    <main class="main main-bg-mobile">
+      <section class="potential">
+        <div class="container">
+          <div class="potential__wrapp">
+            <h2 class="potential__title double-text">
+              <p>
+                <span>Большой</span>
+                потенциал
+              </p>
+            </h2>
+            <h3 class="potential__subtitle section__subtitle">
+              Полезные статьи для многодетных семей и не только
+            </h3>
+            <div class="potential__list">
+              <article class="potential-item">
+                <img class="potential-item__img" src="img/content/slider-potential-img-1.svg" alt="Фотография c животными">
+                <div class="potential-item__info">
+                  <h3 class="potential-item__title">
+                    Как домашние животные влияют на воспитание детей
+                  </h3>
+                  <a href="article-page.html" class="read-more">Читать далее</a>
+                </div>
+              </article>
+              <article class="potential-item">
+                <img class="potential-item__img" src="img/content/slider-potential-img-2.svg" alt="Фотография c животными">
+                <div class="potential-item__info">
+                  <h3 class="potential-item__title">
+                    «Как я с ними со всеми справлюсь?». 5 мифов о воспитании в многодетной семье
+                  </h3>
+                  <a href="#!" class="read-more">Читать далее</a>
+                </div>
+              </article>
+              <article class="potential-item">
+                <img class="potential-item__img" src="img/content/slider-potential-img-3.svg" alt="Фотография c животными">
+                <div class="potential-item__info">
+                  <h3 class="potential-item__title">
+                    Звезда в большой семье: как помочь ребенку найти свой талант?
+                  </h3>
+                  <a href="#!" class="read-more">Читать далее</a>
+                </div>
+              </article>
+            </div>
+        </div>
+    </main>
+    @include('partials/footer.html')
+  </div>
+</body>
+
+</html>
