@@ -26,5 +26,16 @@
     font-size: 12px;
     font-weight: 700;
     line-height: 22px;
+    transition: opacity .3s, outline .3s;
+
+    &:focus-visible {
+      outline: 1px color var(--color-dark);
+      outline-offset: 2px;
+      border-radius: 30px;
+    }
+
+    &:hover {
+      opacity: 0.8;
+    }
   }
 }
